@@ -48,18 +48,18 @@ dotnet run -- [seçenekler]
 
 | Parametre         | Kısa Açıklama          | Detay              |
 | ----------------- | ---------------------- | ------------------ |
-| `--length <sayi>` | Şifre uzunluğu         | Varsayılan: **12** |
-| `--special`       | Özel karakterler ekle  | !@#\$%^&\*()       |
-| `--copy`          | Şifreyi panoya kopyala | Otomatik kopyalar  |
-| `--help`          | Yardım ekranı göster   | Komutları açıklar  |
+| `-length <sayi>` | Şifre uzunluğu         | Varsayılan: **12** |
+| `-special`       | Özel karakterler ekle  | !@#\$%^&\*()       |
+| `-copy`          | Şifreyi panoya kopyala | Otomatik kopyalar  |
+| `-help`          | Yardım ekranı göster   | Komutları açıklar  |
 
 ### 📝 Örnek Kullanımlar
 
 ```bash
-dotnet run -- --length 16
-dotnet run -- --length 20 --special
-dotnet run -- --length 24 --special --copy
-dotnet run -- --help
+dotnet run -length 16
+dotnet run -length 20 --special
+dotnet run -length 24 --special --copy
+dotnet run -help
 ```
 
 ---
