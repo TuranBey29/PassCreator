@@ -37,10 +37,8 @@ class Program
         {
             chars += "!@#$%^&*()"; // özel karakterler ekleniyor.
         }
-
         Random random = new Random();
         char[] password = new char[length];
-
         for (int i = 0; i < length; i++)
         {
             password[i] = chars[random.Next(chars.Length)];
