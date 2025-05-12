@@ -41,7 +41,7 @@ dotnet restore
 Şifre üretmek için:
 
 ```bash
-dotnet run -- [seçenekler]
+dotnet run [parametreler]
 ```
 
 ### 📊 Parametreler
